@@ -17,11 +17,16 @@ class List extends React.Component {
     render() {
       return (
         <div>
-          <h1> {list.one} </h1>
-          {/* <h1> {list.two} </h1>
-          <h1> {list.three} </h1>
-          <h1> {list.four} </h1>
-          <h1> {list.five} </h1> */}
+          <h3> {list.name} </h3>
+          <p> {list.description} </p>
+          
+          <ol>
+            <li> {list.one} </li>
+            <li> {list.two} </li>
+            <li> {list.three} </li>
+            <li> {list.four} </li>
+            <li> {list.five} </li>
+          </ol>
         </div>
       );
     }
